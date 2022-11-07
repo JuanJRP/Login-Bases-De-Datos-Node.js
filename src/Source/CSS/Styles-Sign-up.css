@@ -1,18 +1,26 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    background: url(../Source/BackGround.jpg) no-repeat center top;
+    background: url(/img/BackGround.jpg) no-repeat center top;
     background-size: cover;
     height: 100vh;
     font-family: sans-serif;
 }
 
-.Sign-up-box{
+.Sign-up-box div {
+    color: red;
+    text-align: center;
+    padding: 0 0 30px;
+    font-size: 22px;
+    margin: 10;
+}
+
+.Sign-up-box {
     width: 350px;
-    height: 630px;
+    height: 350px;
     background: transparent;
     color: #fff;
-    top: 54%;
+    top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -20,7 +28,7 @@ body{
     padding: 30px 30px;
 }
 
-.Sign-up-box h1{
+.Sign-up-box h1 {
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
@@ -28,7 +36,7 @@ body{
     font-size: 22px;
 }
 
-.Sign-up-box label{
+.Sign-up-box label {
     margin: 0;
     padding: 0;
     font-weight: bold;
@@ -36,7 +44,7 @@ body{
     color: black;
 }
 
-.Sign-up-box input{
+.Sign-up-box input {
     width: 100%;
     margin-bottom: 20px;
 }
@@ -44,8 +52,7 @@ body{
 .Sign-up-box input[type="text"],
 .Sign-up-box input[type="number"],
 .Sign-up-box input[type="email"],
-.Sign-up-box input[type="Password"]   
-{
+.Sign-up-box input[type="Password"] {
     border: none;
     border-bottom: 1px solid black;
     background: transparent;
@@ -55,7 +62,7 @@ body{
     color: black;
 }
 
-.Sign-up-box input[type="submit"]{
+.Sign-up-box input[type="submit"] {
     border: none;
     outline: none;
     height: 40px;
@@ -64,19 +71,23 @@ body{
     font-size: 18px;
     border-radius: 20px;
 }
-.Sign-up-box input[type="submit"]:hover{
+
+.Sign-up-box input[type="submit"]:hover {
     color: black;
 }
-.Sign-up-box a{
+
+.Sign-up-box a {
     text-decoration: none;
     font-size: 14px;
     line-height: 20px;
     color: white;
 }
-.Sign-up-box a:hover{
+
+.Sign-up-box a:hover {
     color: black;
 }
-.Sign-up-box input[type="submit"]:hover{
+
+.Sign-up-box input[type="submit"]:hover {
     color: black;
     background: white;
 }
