@@ -64,7 +64,7 @@ body {
     outline: none;
     height: 40px;
     font-size: 16px;
-    color: black;
+    color: white;
 }
 
 .login-box input[type="submit"] {
